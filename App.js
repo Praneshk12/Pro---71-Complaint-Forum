@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createBottomTabNavigator} from 'react-navigation-tabs' 
 import WriteComplaint from './WriteComplaint'
-import ReadComplaint from './ReadComplaint'
+import ReadComplaint from './ReadCompaint'
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 export default class App extends React.Component {
